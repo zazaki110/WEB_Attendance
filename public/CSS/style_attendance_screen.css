@@ -1,0 +1,251 @@
+div.frame-1 {
+    border: solid 1px #333; /*線の種類・太さ・色*/
+    width: 60%;
+    height: 120%;
+    /* 上 | 右 | 下 | 左 */
+    margin: 10% 25% 0% 20%;
+    line-height: 0px;
+}
+p.frame-1-name {
+    text-align: center;
+    position: relative;
+    top: 4%;
+    font-size: 130%;
+}
+
+div.frame-2 {
+    border-bottom: solid 1px#333;
+    width: 100%;
+    height: 5%;
+    margin: 0.5% 10% 5% 0%;
+}
+p.frame-2-name {
+    text-align: center;
+    position: relative;
+    top: 120%;
+    font-size: 100%;
+}
+
+div.frame-3 {
+    border-bottom: solid 1px#333;
+    width: 100%;
+    height: 5%;
+    margin: -5% 10% 10% 0%;
+}
+
+p.Web_attendance_name {
+    font-size: 200%;
+}
+
+div.login-buttons {
+    position: relative;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    top: 430%;
+}
+
+button.staff-page {
+    position: relative;
+    background-color: #4caf50; /* 背景色 */
+    color: white; /* 文字色 */
+    padding: 15px 32px; /* パディング */
+    text-align: center; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 16px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 4px 2px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: none; /* ボーダーなし */
+    border-radius: 5px; /* ボタンの角丸 */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* 影 */
+    transition: transform 0.1s ease-in-out; /* トランジション */
+}
+
+button.admin-page {
+    position: relative;
+    background-color: #4caf50; /* 背景色 */
+    color: white; /* 文字色 */
+    padding: 15px 32px; /* パディング */
+    text-align: center; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 16px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 4px 2px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: none; /* ボーダーなし */
+    border-radius: 5px; /* ボタンの角丸 */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* 影 */
+    transition: transform 0.1s ease-in-out; /* トランジション */
+    margin-top: 10%;
+}
+
+a.staff-page-link {
+    text-decoration: none;
+    color: black;
+}
+a.admin-page-page-link {
+    text-decoration: none;
+    color: black;
+}
+
+footer.footer-salary {
+    border-bottom: solid 1px#333;
+    width: 100%;
+    height: 5%;
+    margin: 82% 10% 10% 0%;
+}
+p.footer-name {
+    text-align: center;
+    position: relative;
+    top: 120%;
+    font-size: 100%;
+}
+.table-scroll {
+    overflow-x: auto;
+}
+.table_design10 {
+    border-collapse: collapse;
+    min-width: 700px;
+    font-weight: bold;
+    text-align: center;
+}
+.table_design10 th,
+.table_design10 td {
+    padding: 0.5em 1em;
+    border: 2px solid #4d9bc1;
+}
+.table_design10 th {
+    background: #4d9bc1;
+    color: #fff;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #4d9bc1;
+}
+.table_design10 th:last-of-type {
+    border-right: 2px solid #4d9bc1;
+}
+td {
+    height: 10%;
+    width: 10%;
+}
+table.table_pos {
+    margin-top: 15%;
+}
+
+div.year_and_month_selectbox {
+    display: flex;
+    margin-left: 5%;
+}
+
+p.year_and_month {
+    position: absolute;
+    top: 30.2%;
+    left: 21%;
+}
+p.year {
+    position: absolute;
+    top: 30.2%;
+    left: 27%;
+}
+select.year_select_css {
+    position: absolute;
+    top: 29%;
+}
+select.month_select_css {
+    position: absolute;
+    top: 29%;
+    left: 28%;
+}
+p.month {
+    position: absolute;
+    top: 30.2%;
+    left: 31%;
+}
+
+input.update_button {
+    position: absolute;
+    right: 27%;
+    top: 28.6%;
+    height: 3%;
+}
+
+input.Attendance_button {
+    position: absolute;
+    right: 30%;
+    top: 28.6%;
+    height: 3%;
+}
+input.Registration_button {
+    position: absolute;
+    right: 24%;
+    top: 28.6%;
+    height: 3%;
+}
+p.Western_calendar_display {
+    position: absolute;
+    top: 30.2%;
+    left: 33%;
+}
+input.start_time1 {
+    height: 45%;
+    width: 47%;
+   
+    
+}
+input.start_time2 {
+    height: 45%;
+    width: 47%;
+}
+
+/* numberのスピンボタンを非表示にする */
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] { 
+    -moz-appearance:textfield; 
+  } 
+
+  input.end_time1 {
+    height: 45%;
+    width: 47%;
+   
+}
+
+input.end_time2 {
+    height: 45%;
+    width: 47%;
+}
+
+input.break_time {
+    height: 45%;
+    width: 47%;
+}
+
+input.overtime_break_time {
+    height: 45%;
+    width: 47%;
+}
+
+input.late_night_break_time {
+    height: 45%;
+    width: 47%;
+}
+
+input.remarks {
+    height: 45%;
+    width: 47%;
+}
+
+input.actual_working_hours1 {
+    height: 45%;
+    width: 47%;
+}
+input.actual_working_hours2 {
+    height: 45%;
+    width: 47%;
+}
